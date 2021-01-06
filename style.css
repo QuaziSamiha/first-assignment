@@ -1,3 +1,4 @@
+/*-----------------all tags are styled here------------------------*/
 body{
     margin: 0;
     padding: 0;
@@ -15,6 +16,13 @@ h1{
 h2{
     font-size: 40px;
 }
+h4{
+    text-align: center;
+    color: palegreen;
+}
+h5{
+    color: orangered;
+}
 p{
     color: dimgray;
     text-align: justify;
@@ -22,25 +30,47 @@ p{
 img{
     width: 100%;
 }
-h5{
-    color: orangered;
+
+/*-------------------------------this is for navigation section-------------------*/
+#nav-part{
+    margin: 20px;
+    margin-right: 50px;
+    height: 50px;
+    text-align: right;
 }
-h4{
-    text-align: center;
-    color: palegreen;
+#nav-part a{
+    text-decoration: none;
+    padding: 15px;
+    font-weight: bolder;
+    color: dimgray;
 }
+#nav-part a:hover{
+    color: blanchedalmond;
+}
+
+
+/*--------------this class is used Introduction section and About section--------------------------------*/
 .half-width{
     width: 35%;
     margin: 4% 3.5%;
     padding: 4% 3.5%;
     float: left;
 }
+.half-width a:hover{
+    box-shadow: springgreen;
+}
+
+/*--------------this class is used for hrading of Introduction section and About section----------------------*/
 .head1{
     color:cornflowerblue;
 }
+
+/*--------------this id is used for heading of Introduction section---------------------------------------*/
 #head2{
     color:crimson;
 }
+
+/*--------------------------this class is used Introduction section and About section for linkable button--------*/
 .link-button1{
     text-decoration: none;
     padding: 2% 6%;
@@ -50,15 +80,20 @@ h4{
     font-weight: bold;
     color: whitesmoke;
 }
-#intro-area{
+
+#intro-area{ /*-------this id is used to identify Introduction section---------------------*/
     height: 600px;
 }
-#download{
+
+#download{ /*----------this id is used for Download icon in About section ------------------*/
     font-size: 25px;
 }
-#about-area{
+
+#about-area{/*-------this id is used to identify About section---------------------*/
     height: 700px;
 }
+
+/*-------------------this id is used for Latest Project section-------------------------*/
 #work-area{
     padding-top: 80px;
     text-align: center;
@@ -66,9 +101,12 @@ h4{
     margin-bottom: 100px;
     background-color: rgb(8, 8, 8);
 }
-#work-head{
+
+#work-head{ /*--------------this id is used for Latest Project section heading----------------*/
     color: darkorange;
 }
+
+/*--------------this class is used for to give size of card of Latest Project section and Extra section-------*/
 .work-project{
     width: 17%;
     padding: 2% 3%;
@@ -79,6 +117,70 @@ h4{
     border-radius: 5px;
     height: 350px;
 }
+.work-project:hover{
+    box-shadow: 10px 10px 40px rgb(97, 148, 145);
+}
+
+
+/*-------------------------------this id is used for Extra section----------------------*/
+#extra-area{
+    padding-top: 80px;
+    height: 700px;
+    background-color: rgb(8, 8, 8);   
+}
+
+/*-------------------------this id is used for designing card of Extra section----------------*/
+#card1{ 
+    border-left: 6px solid;
+    border-image: linear-gradient(180deg, cyan, blue);
+    border-image-slice: 1;
+}
+
+/*-------------------------this id is used for designing card of Extra section----------------*/
+#card2{
+    border-left: 6px solid;
+    border-image: linear-gradient(180deg, pink,red);
+    border-image-slice: 1;
+}
+
+/*-------------------------this id is used for designing card of Extra section----------------*/
+#card3{
+    border-left: 6px solid;
+    border-image: linear-gradient(180deg, yellow, orange);
+    border-image-slice: 1;
+}
+
+/*-----------------------------this class id used for hovering all cards together----------*/
+.card-extra:hover{
+    box-shadow: 10px 10px 40px rgb(97, 148, 145);
+}
+
+/*-----------------this tags are used to desing Extra section  2nd no. card -------------------*/
+input, textarea{
+    width: 100%;
+    padding: 4px;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+button{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(19, 18, 18);
+    padding: 10px 15px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/*-----------------------this class is used for designing 3rd card of Extra section -------------------------*/
+.icon-div{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+/*-----------------------this id is used for Work Inqyiry section-----------------------*/
 #image-background{
     width: 60%;
     height: 180px;
@@ -104,66 +206,20 @@ h4{
     font-weight: bold;
     color: whitesmoke;
 }
+
+/*---------------------------for footer section----------------------*/
 footer{
     text-align: center;
     height: 300px;
 }
-#nav-part{
-    margin: 20px;
-    margin-right: 50px;
-    height: 50px;
-    text-align: right;
-}
-#nav-part a{
-    text-decoration: none;
-    padding: 15px;
-    font-weight: bolder;
-    color: dimgray;
-}
-#nav-part a:hover{
-    color: blanchedalmond;
-}
-#extra-area{
-    padding-top: 80px;
-    height: 700px;
-    background-color: rgb(8, 8, 8);   
-}
-#card1{
-    border-left: 6px solid;
-    border-image: linear-gradient(180deg, cyan, blue);
-    border-image-slice: 1;
-}
-#card2{
-    border-left: 6px solid;
-    border-image: linear-gradient(180deg, pink,red);
-    border-image-slice: 1;
-}
-#card3{
-    border-left: 6px solid;
-    border-image: linear-gradient(180deg, yellow, orange);
-    border-image-slice: 1;
-}
-.card-extra:hover{
-    box-shadow: 10px 10px 40px rgb(97, 148, 145);
-}
-input, textarea{
-    width: 100%;
-    padding: 4px;
-    font-size: 1rem;
-    text-align: center;
-    border: none;
-    border-radius: 5px;
-}
-button{
-    border: none;
+footer a{
+    padding: 5px;
     border-radius: 10px;
-    background-color: rgb(19, 18, 18);
-    padding: 10px 15px;
-    margin: 10px;
-    cursor: pointer;
+    text-decoration: none;
+    font-weight: bolder;
+    color: skyblue;
 }
-.icon-div{
-    width: 50px;
-    height: 50px;
-    padding: 10px;
+footer a:hover{
+    color: coral;
+    box-shadow: 5px 5px 20px skyblue;
 }
