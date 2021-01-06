@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    padding: 0;
     font-family: 'Open Sans', sans-serif;
     background-color: rgb(7, 7, 7);
 }
@@ -18,8 +19,8 @@ img{
 }
 .half-width{
     width: 35%;
-    margin: 4% 2.5%;
-    padding: 4% 2.5%;
+    margin: 4% 3.5%;
+    padding: 4% 3.5%;
     float: left;
 }
 .head1{
@@ -46,8 +47,8 @@ img{
 #about-area{
     height: 700px;
 }
-.work-area{
-    width: 90%;
+#work-area{
+    padding-top: 80px;
     text-align: center;
     height: 700px;
     background-color: rgb(8, 8, 8);
@@ -56,10 +57,12 @@ img{
     color: darkorange;
 }
 .work-project{
-      padding: 2%;
-      margin: 2%;
-      float: left; 
-}
-.work-project img{
-    width: 100%;
+    width: 17%;
+    padding: 2% 3%;
+    margin-left: 6%;
+    margin-right: 3.5%;
+    float: left;
+    box-shadow: 10px 10px 40px rgb(19, 18, 18);
+    border-radius: 5px;
+    height: 350px;
 }
