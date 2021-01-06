@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(7, 7, 7);
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+    text-align: justify;
+}
+img{
+    width: 100%;
+}
+.half-width{
+    width: 35%;
+    margin: 4% 2.5%;
+    padding: 4% 2.5%;
+    float: left;
+}
+.head1{
+    color:cornflowerblue;
+}
+#head2{
+    color:crimson;
+}
+.link-button{
+    text-decoration: none;
+    padding: 2% 6%;
+    margin: 2% 0%;
+    background-image: linear-gradient(to right, dimgrey,cornflowerblue);
+    border-radius: 10px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+#intro-area{
+    height: 600px;
+}
+#download{
+    font-size: 25px;
+}
+#about-area{
+    height: 700px;
+}
+.work-area{
+    width: 90%;
+    text-align: center;
+    height: 700px;
+    background-color: rgb(8, 8, 8);
+}
+#work-head{
+    color: darkorange;
+}
+.work-project{
+      padding: 2%;
+      margin: 2%;
+      float: left; 
+}
+.work-project img{
+    width: 100%;
+}
