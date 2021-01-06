@@ -3,6 +3,11 @@ body{
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     background-color: rgb(7, 7, 7);
+    background-image: url("images/body-background.jpg");
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-attachment: fixed;
 }
 h1{
     font-size: 50px;
@@ -16,6 +21,13 @@ p{
 }
 img{
     width: 100%;
+}
+h5{
+    color: orangered;
+}
+h4{
+    text-align: center;
+    color: palegreen;
 }
 .half-width{
     width: 35%;
@@ -51,6 +63,7 @@ img{
     padding-top: 80px;
     text-align: center;
     height: 700px;
+    margin-bottom: 100px;
     background-color: rgb(8, 8, 8);
 }
 #work-head{
@@ -95,24 +108,62 @@ footer{
     text-align: center;
     height: 300px;
 }
-.icon-div{
-    width: 50px;
-    height: 50px;
-    padding: 5px;
-    float: left;
-}
-#head-part{
+#nav-part{
     margin: 20px;
     margin-right: 50px;
     height: 50px;
     text-align: right;
 }
-#head-part a{
+#nav-part a{
     text-decoration: none;
     padding: 15px;
     font-weight: bolder;
     color: dimgray;
 }
-#head-part a:hover{
+#nav-part a:hover{
     color: blanchedalmond;
+}
+#extra-area{
+    padding-top: 80px;
+    height: 700px;
+    background-color: rgb(8, 8, 8);   
+}
+#card1{
+    border-left: 6px solid;
+    border-image: linear-gradient(180deg, cyan, blue);
+    border-image-slice: 1;
+}
+#card2{
+    border-left: 6px solid;
+    border-image: linear-gradient(180deg, pink,red);
+    border-image-slice: 1;
+}
+#card3{
+    border-left: 6px solid;
+    border-image: linear-gradient(180deg, yellow, orange);
+    border-image-slice: 1;
+}
+.card-extra:hover{
+    box-shadow: 10px 10px 40px rgb(97, 148, 145);
+}
+input, textarea{
+    width: 100%;
+    padding: 4px;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+button{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(19, 18, 18);
+    padding: 10px 15px;
+    margin: 10px;
+    cursor: pointer;
+}
+.icon-div{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
 }
